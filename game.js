@@ -217,7 +217,7 @@ export async function startGame() {
       console.log(chalk.red('당신은 그만 정신을 잃고 말았습니다.'));
       console.log(chalk.red('GAME OVER'));
       console.log(chalk.yellow(`업적이 추가됐습니다. '업적 확인' 옵션에서 확인하세요.`));
-      achieve(`[패배] 암 오케, I'm fine, 괜찮아..괜찮아.. 딩↗딩→딩→딩↘딩↘`);
+      achieve(`[패배] 암 오케, I'm fine, 괜찮아..괜찮아.. 딩딩딩딩딩`);
       setTimeout(() => console.log(chalk.white('패배했습니다. 메인 메뉴로 돌아갑니다')), 1000);
       await delay(3000);
       await start();
