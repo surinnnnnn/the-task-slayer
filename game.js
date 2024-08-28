@@ -157,7 +157,7 @@ const battle = async (stage, player, monster) => {
           player.levelUp(stage); // 도망 성공 시 레벨업
           await delay(500);
           console.log(chalk.yellow('다음 과제로 도망갑니다..'));
-          await delay(1000);
+          await delay(1500);
           return;
         } else {
           await delay(500);
